@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Home" />
+    <item
+        android:id="@+id/musicFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Music" />
+    <item
+        android:id="@+id/storyFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Share" />
+    <item
+        android:id="@+id/receiverFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Receiver" />
+    <item
+        android:id="@+id/calendarListFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Calendar" />
+</menu>
