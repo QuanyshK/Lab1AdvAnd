@@ -1,14 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.HomeFragment">
+    android:padding="30dp">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
 
-</FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnMusicStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Music"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnMusicPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause Music"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnMusicStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Music"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAirplaneMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Airplane Mode"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnCalendarEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calendar Events"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnStoryShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share Story"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+
+</ScrollView>
