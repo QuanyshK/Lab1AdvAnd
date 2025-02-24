@@ -1,1 +1,4 @@
-[[document_5323752756714955247.mp4](assets/document_5323752756714955247.mp4)](https://github.com/QuanyshK/Lab1AdvAnd/blob/master/assets/document_5323752756714955247.mp4)
+
+
+https://github.com/user-attachments/assets/813e6638-2e6e-4742-bfe1-c39f15041813
+
