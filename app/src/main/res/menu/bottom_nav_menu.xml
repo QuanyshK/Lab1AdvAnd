@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/homeFragment"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_agenda"
         android:title="Home" />
     <item
         android:id="@+id/musicFragment"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_lock_silent_mode_off"
         android:title="Music" />
     <item
         android:id="@+id/storyFragment"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_share"
         android:title="Share" />
     <item
         android:id="@+id/receiverFragment"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_myplaces"
         android:title="Receiver" />
     <item
         android:id="@+id/calendarListFragment"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_my_calendar"
         android:title="Calendar" />
 </menu>
