@@ -80,3 +80,4 @@ class HomeFragment : Fragment() {
         _binding = null
     }
 }
+//dont even try to copy:))
